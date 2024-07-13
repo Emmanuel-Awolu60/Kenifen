@@ -1,11 +1,14 @@
 import React from "react";
-
+import "./Header.css";
 const Header = () => {
   return (
     <div className="top__dev">
-      <div>
-        <h1>BECCA Kenifen</h1>
-        <div>
+      {/* NAVBAR ST */}
+      <div className="navbar">
+        <div className="hearding__nav">
+          <h1>BECCA Kenifen</h1>
+        </div>
+        <div className="div__anchor">
           <a>Home</a>
           <a>About</a>
           <a>Service</a>
@@ -14,6 +17,7 @@ const Header = () => {
           <a>Contact Us</a>
         </div>
       </div>
+      {/* NAVBAR ED */}
     </div>
   );
 };
