@@ -2,8 +2,18 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-yellow-200 w-6 h-4">
-      <h1>How Are you Doing</h1>
+    <div className="top__dev">
+      <div>
+        <h1>Kenifen</h1>
+        <div>
+          <a>Home</a>
+          <a>About</a>
+          <a>Service</a>
+          <a>Portfolio</a>
+          <a>Testimonials</a>
+          <a>Contact Us</a>
+        </div>
+      </div>
     </div>
   );
 };
