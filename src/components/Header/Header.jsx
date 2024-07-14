@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
+import OutsideClickHandler from "react-outside-click-handler";
 const Header = () => {
   return (
     <div className="top__dev">
@@ -12,14 +13,24 @@ const Header = () => {
             <span className="text-primary">FEN</span>
           </h1>
         </div>
-        <div className="div__anchor">
-          <a className="active">Home</a>
-          <a>About</a>
-          <a>Service</a>
-          <a>Portfolio</a>
-          <a>Testimonials</a>
-          <a>Contact Us</a>
-        </div>
+        <OutsideClickHandler
+          onOutsideClick={() => {
+            setMenuOpened(false);
+          }}
+        >
+          <div className="div__anchor">
+            <a className="active">Home</a>
+            <a>About</a>
+            <a>Service</a>
+            <a>Portfolio</a>
+            <a>Testimonials</a>
+            <a>Contact Us</a>
+          </div>
+        </OutsideClickHandler>
+        <div
+          className="menu-icon"
+          onClick={() => setMenuOpened((prev) => !prev)}
+        ></div>
       </div>
       {/* NAVBAR ED */}
     </div>

@@ -6,7 +6,7 @@
     width: 80%;
     margin: 0 auto;
     padding-top: 10px;
-    background-color: whitesmoke;
+    background-color: #fff;
     box-shadow: 0.5px 0.5px 1px 0.5px #757575;
 }
 
@@ -43,4 +43,40 @@
 
 .div__anchor>a:hover {
     color: #000;
+}
+
+.h-menu {
+    gap: 2rem;
+}
+
+.h-menu:hover {
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width:963px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .h-menu {
+        z-index: 99;
+        color: var(--black);
+        position: absolute;
+        top: 3rem;
+        right: 4rem;
+        background: #ffff;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 2rem;
+        padding: 3rem;
+        border-radius: 10px;
+        align-items: flex-start;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        width: 80%;
+        transition: all 400ms ease-in;
+    }
 }
