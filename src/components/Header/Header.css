@@ -14,9 +14,21 @@
     font-size: 25px;
     font-weight: 200;
     padding-left: 20px;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
 }
 
-.div__anchor {
+.hearding__nav>h1>.text-primary {
+    color: #3b71ca;
+}
+
+.hearding__nav>h1>.text-danger {
+    color: #dc4c64;
+}
+
+.hearding__nav>h1 .div__anchor {
     width: 52%;
 }
 

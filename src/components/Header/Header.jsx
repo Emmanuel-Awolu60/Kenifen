@@ -6,7 +6,11 @@ const Header = () => {
       {/* NAVBAR ST */}
       <div className="navbar">
         <div className="hearding__nav">
-          <h1>BECCA Kenifen</h1>
+          <h1>
+            <span className="text-primary">BECCA</span>
+            <span className="text-danger">KENI</span>
+            <span className="text-primary">FEN</span>
+          </h1>
         </div>
         <div className="div__anchor">
           <a className="active">Home</a>
