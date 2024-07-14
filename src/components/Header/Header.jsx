@@ -9,7 +9,7 @@ const Header = () => {
           <h1>BECCA Kenifen</h1>
         </div>
         <div className="div__anchor">
-          <a>Home</a>
+          <a className="active">Home</a>
           <a>About</a>
           <a>Service</a>
           <a>Portfolio</a>
