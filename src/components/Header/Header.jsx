@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import "./Header.css";
 import OutsideClickHandler from "react-outside-click-handler";
 const Header = () => {
+  const [menuOpened, setMenuOpened] = useState(false);
+  const getMenuStyles = (menuOpened) => {
+    if (document.documentElement.clientWidth <= 800) {
+      return { right: !menuOpened && "-100%" };
+    }
+  };
   return (
     <div className="top__dev">
       {/* NAVBAR ST */}
