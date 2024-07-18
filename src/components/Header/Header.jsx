@@ -24,13 +24,16 @@ const Header = () => {
             setMenuOpened(false);
           }}
         >
-          <div className="div__anchor">
+          <div
+            className="flex__Center div__anchor h__menu"
+            style={getMenuStyles(menuOpened)}
+          >
             <a className="active">Home</a>
-            <a>About</a>
-            <a>Service</a>
-            <a>Portfolio</a>
-            <a>Testimonials</a>
-            <a>Contact Us</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Portfolio</a>
+            <a href="">Testimonials</a>
+            <a href="">Contact Us</a>
           </div>
         </OutsideClickHandler>
         <div
