@@ -6,11 +6,13 @@ const Hero = () => {
     <div className="div__top">
       <div className="div__right">
         <div className="div__rightText">
-          <h1>Welcome to</h1>
-          <br />
-          <span className="text-primary">BECCA</span>
-          <span className="text-danger">KENI</span>
-          <span className="text-primary">FEN</span>
+          <h2>
+            Welcome to
+            <br />
+            <span className="text-primary">BECCA</span>
+            <span className="text-danger">KENI</span>
+            <span className="text-primary">FEN</span>
+          </h2>
         </div>
 
         <div>
@@ -21,9 +23,9 @@ const Hero = () => {
           </p>
         </div>
 
-        <div>
-          <button>GET STARTED</button>
-          <button>BUY IMMEDIATELY</button>
+        <div className="dev_btn">
+          <button className="btn__start">GET STARTED</button>
+          <button className="btn__buy">BUY IMMEDIATELY</button>
         </div>
       </div>
 
