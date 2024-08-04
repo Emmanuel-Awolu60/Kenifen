@@ -23,9 +23,12 @@ img {
     text-align: center;
 }
 
-/* .div__rightText {
-    display: block;
-} */
+.div__rightText h2 {
+    color: #54b4d3;
+    size: 3rem;
+}
+
+.text-primary {}
 
 .div__left {
     width: 50%;
@@ -108,7 +111,6 @@ img {
 .btn__buy {
     background-color: #fff;
     border-radius: 4px;
-    border: 2px solid #54b4d3;
     border-style: none;
     box-sizing: border-box;
     color: #54b4d3;
