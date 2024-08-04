@@ -5,22 +5,18 @@ img {
 .div__top {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     margin-bottom: 5px;
     /* border: 2px solid black; */
 }
 
 .div__right {
     /* justify-content: center; */
-    width: 50%;
-    margin-top: 40px;
+    width: 40%;
+    margin-top: 60px;
     margin-left: 50px;
-}
-
-.div__right h2 {
-    text-align: center;
 }
 
 .div__rightText h2 {
@@ -44,7 +40,7 @@ img {
 }
 
 .div__left {
-    width: 50%;
+    width: 60%;
 }
 
 .textp {
@@ -59,7 +55,7 @@ img {
     border: 1px solid #e0e0e0;
     border-radius: .25rem;
     box-shadow: 0 .125rem .25rem #00000013;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .hero__img {
