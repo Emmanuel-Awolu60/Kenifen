@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="div__right">
         <div className="div__rightText">
           <h2>
-            Welcome to
+            <span className="welcome__text">WELCOME TO</span>
             <br />
             <span className="text-primary">BECCA</span>
             <span className="text-danger">KENI</span>
@@ -15,7 +15,7 @@ const Hero = () => {
           </h2>
         </div>
 
-        <div>
+        <div className="textp">
           <p>
             Every book is judged by its cover at the first glance. Take your
             fashion sense to the ultimate level. How you look has an impact on

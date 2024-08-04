@@ -25,13 +25,31 @@ img {
 
 .div__rightText h2 {
     color: #54b4d3;
-    size: 3rem;
+    font-size: 3rem;
+    /* margin-bottom: 1rem; */
 }
 
-.text-primary {}
+.welcome__text {
+    /* font-size: ; */
+    white-space: 3rem;
+    gap: 3;
+}
+
+.text-primary {
+    color: #3b71ca;
+}
+
+.text-danger {
+    color: #dc4c64;
+}
 
 .div__left {
     width: 50%;
+}
+
+.textp {
+    font-size: larger;
+    margin: 2rem 0 2rem 0;
 }
 
 .left__img {
