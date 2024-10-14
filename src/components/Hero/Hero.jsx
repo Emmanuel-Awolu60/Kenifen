@@ -31,7 +31,7 @@ const Hero = () => {
 
       <div className="div__left">
         <div className="left__img">
-          <ul className="glide__slides">
+          <ul className="glide__slides"> 
             <li className="glide__slide">
               <img src="./img/hero.jpg" alt="" className="hero__img" />
             </li>
