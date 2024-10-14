@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="textp">
           <p>
             Every book is judged by its cover at the first glance. Take your
-            fashion sense to the ultimate level. How you look has an impact on
+            fashion sense to the ultimate level. <br /> How you look has an impact on
             how you feel!
           </p>
         </div>
@@ -31,7 +31,7 @@ const Hero = () => {
 
       <div className="div__left">
         <div className="left__img">
-          <ul className="glide__slides"> 
+          <ul className="glide__slides">
             <li className="glide__slide">
               <img src="./img/hero.jpg" alt="" className="hero__img" />
             </li>
