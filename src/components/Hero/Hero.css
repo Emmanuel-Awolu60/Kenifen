@@ -204,6 +204,10 @@ img {
         width: 100%;
     }
 
+    .btn__buy {
+        margin-left: 10px;
+    }
+
     .bbb {
         display: none;
     }
