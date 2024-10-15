@@ -14,7 +14,7 @@ const Header = () => {
       <div className="navbar">
         <div className="hearding__nav">
           <h1>
-            <span className="text-primary">BECCA</span>
+            {/* <span className="text-primary">BECCA</span> */}
             <span className="text-danger">KENI</span>
             <span className="text-primary">FEN</span>
           </h1>

@@ -9,7 +9,7 @@ const Hero = () => {
           <h2>
             <span className="welcome__text">WELCOME TO</span>
             <br />
-            <span className="text-primary">BECCA</span>
+            <span className="text-primary bbb">BECCA</span>
             <span className="text-danger">KENI</span>
             <span className="text-primary">FEN</span>
           </h2>
@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="dev_btn">
+        <div className="div_btn">
           <button className="btn__start">GET STARTED</button>
           <button className="btn__buy">BUY IMMEDIATELY</button>
         </div>
