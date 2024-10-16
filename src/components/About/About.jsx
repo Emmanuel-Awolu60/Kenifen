@@ -1,5 +1,6 @@
 import React from 'react'
-
+import "./About.css"
+import { FaReact } from 'react-icons/fa'
 const About = () => {
     return (
 
@@ -27,7 +28,7 @@ const About = () => {
                                     <i class="bi bi-check2-circle"></i>
                                 </div>
 
-                                <h5 class="card-title text-info mb-3 aquatico-regular">
+                                <h5 class="card-title text-info mb-3 aquatico-regular icon=" fa-solid fa-check>
                                     Custom Suit Design
                                 </h5>
                                 <p class="card-text roboto-regular">

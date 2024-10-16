@@ -1,4 +1,57 @@
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .aquatico-regular {
     font-family: Aquatico Regular !important;
+}
+
+.mb-3 {
     font-size: 2rem;
+}
+
+.roboto-regular {
+    font-family: Roboto Regular !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #757575;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--mdb-gutter-x)* .5);
+    padding-left: calc(var(--mdb-gutter-x)* .5);
+    margin-top: var(--mdb-gutter-y);
+}
+
+.row {
+    --mdb-gutter-x: 1.5rem;
+    --mdb-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--mdb-gutter-y)* -1);
+    margin-right: calc(var(--mdb-gutter-x)* -.5);
+    margin-left: calc(var(--mdb-gutter-x)* -.5);
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --mdb-gutter-x: 1.5rem;
+    --mdb-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--mdb-gutter-x)* .5);
+    padding-left: calc(var(--mdb-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
 }
