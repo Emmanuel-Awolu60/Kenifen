@@ -32,12 +32,12 @@ p {
     touch-action: manipulation;
 }
 
-.container-main {
+/* .container-main {
     width: 70%;
     margin: 0 auto;
 
 
-}
+} */
 
 .card-body {
     border-radius: 20px !important;
@@ -62,7 +62,6 @@ p {
 
 .mdd {
     font-size: 3rem !important;
-
 }
 
 .mb-3 {
