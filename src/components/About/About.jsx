@@ -8,7 +8,7 @@ const About = () => {
         <main class="py-5">
             {/* <!-- about us --> */}
             <div class="mt-5 text-center" id="about">
-                <h2 class="mb-3 aquatico-regular">About Us</h2>
+                <h2 class="mdd mb-3 aquatico-regular">About Us</h2>
                 <p class="roboto-regular text-center lead">
                     Discover the epitome of luxury and comfort at our exquisite suites –
                     your perfect home away from home.
