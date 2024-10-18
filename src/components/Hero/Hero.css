@@ -8,7 +8,7 @@ img {
     overflow-clip-margin: content-box;
 }
 
-.container {
+.div__top {
     width: 70% !important;
     display: flex;
     justify-content: space-between;
@@ -178,7 +178,7 @@ img {
 
 @media (max-width:967px) {
     .div__top {
-        width: 95%;
+        width: 96% !important;
         margin: 0 auto;
         /* margin-left: 10px; */
         display: block;
@@ -192,9 +192,11 @@ img {
         margin-bottom: 3em;
     }
 
-    .left__img {
-        /* border: 2px solid black; */
+    .div__left {
         width: 100%;
+    }
+
+    .left__img {
         padding: .25rem;
         margin-right: 0px;
     }
@@ -202,7 +204,8 @@ img {
     .div_btn {
         margin-top: 60px;
         display: flex;
-        width: 100%;
+        width: 99%;
+        justify-content: space-evenly;
     }
 
     .btn__buy {
