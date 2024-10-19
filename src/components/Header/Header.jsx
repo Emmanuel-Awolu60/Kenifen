@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Header.css";
 import OutsideClickHandler from "react-outside-click-handler";
+import { BiMenuAltRight } from "react-icons/bi";
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
+
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
       return { right: !menuOpened && "-100%" };
@@ -39,7 +41,10 @@ const Header = () => {
         <div
           className="menu-icon"
           onClick={() => setMenuOpened((prev) => !prev)}
-        ></div>
+        >
+          <BiMenuAltRight size={30} />
+
+        </div>
       </div>
       {/* NAVBAR ED */}
     </div>

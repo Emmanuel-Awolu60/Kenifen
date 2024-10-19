@@ -5,33 +5,33 @@ const About = () => {
     return (
 
         //   <!-- main content -->
-        <main class="py-5">
+        <main className="py-5">
             {/* <!-- about us --> */}
-            <div class="mt-5 text-center" id="about">
-                <h2 class="mdd mb-3 aquatico-regular">About Us</h2>
-                <p class="roboto-regular text-center lead">
+            <div className="mt-5 text-center" id="about">
+                <h2 className="mdd mb-3 aquatico-regular">About Us</h2>
+                <p className="roboto-regular text-center lead">
                     Discover the epitome of luxury and comfort at our exquisite suites –
                     your perfect home away from home.
                 </p>
             </div>
 
-            <div class="container-main mt-5 mb-5">
-                <div class="row">
-                    <div class="col-md-4">
+            <div className="container-main mt-5 mb-5">
+                <div className="row">
+                    <div className="col-md-4">
                         <div
-                            class="card my-4 text-center border border-1 hvr-float shadow-4"
+                            className="card my-4 text-center border border-1 hvr-float shadow-4"
                         >
-                            <div class="card-body">
+                            <div className="card-body">
                                 <div
-                                    class="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
+                                    className="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
                                 >
-                                    <i class="bi bi-check2-circle"></i>
+                                    <i className="bi bi-check2-circle"></i>
                                 </div>
 
-                                <h5 class="card-title text-info mb-3 aquatico-regular icon=" fa-solid fa-check>
+                                <h5 className="card-title text-info mb-3 aquatico-regular icon=" fa-solid fa-check>
                                     Custom Suit Design
                                 </h5>
-                                <p class="card-text roboto-regular">
+                                <p className="card-text roboto-regular">
                                     Tailors can work with clients to design a custom suit
                                     tailored to their preferences and requirements. This
                                     includes choosing the fabric, style, and details such as
@@ -39,27 +39,27 @@ const About = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    class="btn btn-outline-info hvr-sweep-to-top btn-lg my-3 roboto-medium"
+                                    className="btn btn-outline-info hvr-sweep-to-top btn-lg my-3 roboto-medium"
                                 >Read More</a
                                 >
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <div
-                            class="card my-4 text-center border border-1 hvr-float shadow-4"
+                            className="card my-4 text-center border border-1 hvr-float shadow-4"
                         >
-                            <div class="card-body">
+                            <div className="card-body">
                                 <div
-                                    class="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
+                                    className="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
                                 >
-                                    <i class="bi bi-exclude"></i>
+                                    <i className="bi bi-exclude"></i>
                                 </div>
 
-                                <h5 class="card-title text-info mb-3 aquatico-regular">
+                                <h5 className="card-title text-info mb-3 aquatico-regular">
                                     Measurement and Fitting
                                 </h5>
-                                <p class="card-text roboto-regular">
+                                <p className="card-text roboto-regular">
                                     Taking precise measurements is a crucial step in tailoring.
                                     Tailors ensure that the suit fits perfectly by measuring the
                                     client's body and making adjustments as needed during
@@ -67,27 +67,27 @@ const About = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    class="btn btn-outline-info hvr-sweep-to-top btn-lg my-3 roboto-medium"
+                                    className="btn btn-outline-info hvr-sweep-to-top btn-lg my-3 roboto-medium"
                                 >Read More</a
                                 >
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <div
-                            class="card my-4 text-center border border-1 hvr-float shadow-4"
+                            className="card my-4 text-center border border-1 hvr-float shadow-4"
                         >
-                            <div class="card-body">
+                            <div className="card-body">
                                 <div
-                                    class="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
+                                    className="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
                                 >
-                                    <i class="bi bi-patch-exclamation"></i>
+                                    <i className="bi bi-patch-exclamation"></i>
                                 </div>
 
-                                <h5 class="card-title text-info mb-3 aquatico-regular">
+                                <h5 className="card-title text-info mb-3 aquatico-regular">
                                     Bespoke Tailoring
                                 </h5>
-                                <p class="card-text roboto-regular">
+                                <p className="card-text roboto-regular">
                                     Bespoke tailoring involves creating a suit from scratch,
                                     with every aspect customized to the client's specifications.
                                     This is a highly personalized service, often associated with

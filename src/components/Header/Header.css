@@ -64,7 +64,6 @@
 @media (max-width:967px) {
     .menu-icon {
         display: block;
-        border: 3px solid tomato;
         width: 10%;
         height: 35px;
     }
