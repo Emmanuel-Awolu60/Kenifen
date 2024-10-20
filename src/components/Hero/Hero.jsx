@@ -10,8 +10,8 @@ const Hero = () => {
             <span className="welcome__text">WELCOME TO</span>
             <br />
             <span className="text-primary bbb">BECCA</span>
-            <span className="text-danger">KENI</span>
-            <span className="text-primary">FEN</span>
+            <span className="font-semibold text-danger">KENI</span>
+            <span className="font-semibold text-primary">FEN</span>
           </h2>
         </div>
 

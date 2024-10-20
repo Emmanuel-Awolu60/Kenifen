@@ -7,7 +7,7 @@ const Header = () => {
 
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
-      return { right: !menuOpened && "-100%" };
+      return { top: !menuOpened && "-100%" };
     }
   };
   return (
@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <OutsideClickHandler
           onOutsideClick={() => {
-            setMenuOpened(false);
+            setMenuOpened(ture);
           }}
         >
           <div
