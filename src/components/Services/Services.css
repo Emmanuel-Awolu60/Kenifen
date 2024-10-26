@@ -2,19 +2,46 @@
     border: 2px solid black;
 }
 
-.getReadyText {
-    font-size: 50px;
-}
-
 #services {
     /* border: 2px solid black; */
     width: 90%;
     margin: 0 auto;
     margin-bottom: 25px;
+    font-size: calc(1.325rem + .9vw);
+
+}
+
+#services p {
+    font-size: 1.5rem;
+}
+
+#services h2 {
+    font-size: 2.5rem !important;
 }
 
 #servicesImg {
     /* border: 2px solid black; */
     width: 90%;
     margin: 0 auto;
+}
+
+.getReadyText {
+    font-size: 50px;
+    font-size: calc(1.325rem + .9vw);
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.callToAction {
+    /* border: 2px solid black; */
+    display: flex !important;
+}
+
+.callToAction h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nowNow {
+    display: flex !important;
 }

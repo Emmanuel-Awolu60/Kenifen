@@ -84,9 +84,10 @@ export const Services = () => {
                 <h2 className="pb-2 border-bottom text-center aquatico-regular getStartedText getReadyText" >
                     Are you ready to get started?
                 </h2>
-                <div className="row g-4 py-5 row-cols-1 row-cols-lg-2">
+                <div className="row g-4 py-5 row-cols-1 row-cols-lg-2 nowNow">
                     <div
-                        className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 hvr-sink"
+                        className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 
+                        hvr-sink callToAction"
                     >
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
                             <i className="bi bi-bag-check-fill"></i>
@@ -107,7 +108,8 @@ export const Services = () => {
                         </div>
                     </div>
                     <div
-                        className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 hvr-sink"
+                        className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 
+                        hvr-sink callToAction"
                     >
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
                             <i className="bi bi-house-heart"></i>
