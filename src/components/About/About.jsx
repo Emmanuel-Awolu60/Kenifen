@@ -24,7 +24,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div
-                            className="card my-4 text-center border border-1 hvr-float shadow-4"
+                            className="card my-4 text-center border border-1 hvr-float shadow-4 cards"
                         >
                             <div className="card-body">
                                 <div
@@ -52,7 +52,7 @@ const About = () => {
                     </div>
                     <div className="col-md-4">
                         <div
-                            className="card my-4 text-center border border-1 hvr-float shadow-4"
+                            className="card my-4 text-center border border-1 hvr-float shadow-4 cards"
                         >
                             <div className="card-body">
                                 <div
@@ -81,7 +81,7 @@ const About = () => {
                     </div>
                     <div className="col-md-4">
                         <div
-                            className="card my-4 text-center border border-1 hvr-float shadow-4"
+                            className="card my-4 text-center border border-1 hvr-float shadow-4 cards"
                         >
                             <div className="card-body">
                                 <div

@@ -79,7 +79,7 @@ p {
     max-width: none !important;
 }
 
-.card {
+.cards {
     --mdb-card-spacer-y: 1.5rem;
     --mdb-card-spacer-x: 1.5rem;
     --mdb-card-title-spacer-y: .5rem;

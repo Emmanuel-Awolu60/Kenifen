@@ -36,15 +36,18 @@ img {
 .welcome__text {
     white-space: 3rem;
     gap: 3;
+    font-family: Georgia, serif;
     /* font-size: ; */
 }
 
 .text-primary {
     color: #3b71ca;
+    font-family: Georgia, serif;
 }
 
 .text-danger {
     color: #dc4c64;
+    font-family: Georgia, serif;
 }
 
 .div__left {
@@ -57,6 +60,7 @@ img {
     margin: 2rem 0 2rem 0;
     color: #757575;
     line-height: 1.8em;
+    font-family: cursive;
 }
 
 .left__img {
