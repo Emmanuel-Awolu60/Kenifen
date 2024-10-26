@@ -1,3 +1,20 @@
-.getStartedText {
-    font-size: 7rem;
+.hanging-icons {
+    border: 2px solid black;
+}
+
+.getReadyText {
+    font-size: 50px;
+}
+
+#services {
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#servicesImg {
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 auto;
 }

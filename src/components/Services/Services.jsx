@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import "./Services.css";
 export const Services = () => {
     return (
         <div>
@@ -12,7 +12,7 @@ export const Services = () => {
                 </p>
             </div>
 
-            <div className="row justify-content-center align-items-center my-5 mx-auto">
+            <div className="row justify-content-center align-items-center my-5 mx-auto" id='servicesImg'>
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
@@ -81,7 +81,7 @@ export const Services = () => {
 
             {/* <!-- call to action --> */}
             <div className="container px-4 py-5 my-generic" id="hanging-icons">
-                <h2 className="pb-2 border-bottom text-center aquatico-regular getStartedText">
+                <h2 className="pb-2 border-bottom text-center aquatico-regular getStartedText getReadyText" >
                     Are you ready to get started?
                 </h2>
                 <div className="row g-4 py-5 row-cols-1 row-cols-lg-2">
