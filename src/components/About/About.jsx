@@ -1,6 +1,11 @@
 import React from 'react'
 import "./About.css"
 import { FaReact } from 'react-icons/fa'
+// import { IoCheckmarkDoneCircle } from "react-icons/io5";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+// import { IoCopyOutline } from "react-icons/io5";
+import { RiScissorsCutFill } from "react-icons/ri";
+import { PiExclamationMarkBold } from "react-icons/pi";
 const About = () => {
     return (
 
@@ -25,7 +30,7 @@ const About = () => {
                                 <div
                                     className="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
                                 >
-                                    <i className="bi bi-check2-circle"></i>
+                                    <IoMdCheckmarkCircleOutline className='icon-square ' />
                                 </div>
 
                                 <h5 className="card-title text-info mb-3 aquatico-regular icon=" fa-solid fa-check>
@@ -53,7 +58,8 @@ const About = () => {
                                 <div
                                     className="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
                                 >
-                                    <i className="bi bi-exclude"></i>
+                                    {/* <IoCopyOutline className='icon-square ' /> */}
+                                    <RiScissorsCutFill className='icon-square ' />
                                 </div>
 
                                 <h5 className="card-title text-info mb-3 aquatico-regular">
@@ -81,7 +87,7 @@ const About = () => {
                                 <div
                                     className="icon-square bg-info text-white flex-shrink-0 me-3 mb-3"
                                 >
-                                    <i className="bi bi-patch-exclamation"></i>
+                                    <PiExclamationMarkBold className='icon-square ' />
                                 </div>
 
                                 <h5 className="card-title text-info mb-3 aquatico-regular">

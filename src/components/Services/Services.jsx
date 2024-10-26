@@ -19,6 +19,7 @@ export const Services = () => {
                             src="./img/kenifenS1.jpg"
                             className="card-img"
                             alt="Stony Beach"
+
                         />
                         <div className="card-img-overlay bg-transparent">
                             <h5 className="card-title aquatico-regular">Custom Tailoring</h5>
