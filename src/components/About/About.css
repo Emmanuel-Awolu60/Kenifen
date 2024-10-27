@@ -3,6 +3,10 @@ p {
     margin-bottom: 1rem;
 }
 
+h5 {
+    font-family: Georgia, serif;
+}
+
 .btn {
     /* background-color: #fff; */
     border: 2px solid #54b4d3 !important;
@@ -137,7 +141,7 @@ p {
 }
 
 .aquatico-regular {
-    font-family: Aquatico Regular !important;
+    font-family: Georgia, serif;
 }
 
 .mdd {
