@@ -36,6 +36,14 @@ h5 {
     touch-action: manipulation;
 }
 
+#about {
+    margin-top: 5rem !important;
+    line-height: normal;
+    border-bottom: 1px solid rgb(212, 205, 205);
+    width: 90%;
+    margin: 0 auto;
+}
+
 .icon-square {
     color: #fff;
     justify-self: center;
@@ -62,6 +70,7 @@ h5 {
     margin: 0 auto;
     /* border: 2px solid black; */
     border-radius: none;
+    margin-top: 4em !important;
 }
 
 .col-md-4 {
@@ -109,6 +118,7 @@ h5 {
     border: var(--mdb-card-border-width) solid var(--mdb-card-border-color);
     border-radius: var(--mdb-card-border-radius);
     box-shadow: var(--mdb-card-box-shadow);
+    width: 23rem;
 }
 
 .card:hover {
@@ -119,16 +129,10 @@ h5 {
 
 .card-body {
     padding: 10px 20px 10px 20px;
-    border-radius: 20px !important;
-    /* border: 1px solid #757575; */
     background-color: #fff;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05); */
     justify-content: center;
     text-align: center !important;
-
-    border: none;
     border-radius: 20px !important;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .container-main p {
@@ -138,6 +142,7 @@ h5 {
 
 .container-main h5 {
     color: #54b4d3;
+    font-size: 1.5rem;
 }
 
 .aquatico-regular {

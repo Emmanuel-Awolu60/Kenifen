@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Services.css";
+import { IoBagCheckOutline } from "react-icons/io5";
 export const Services = () => {
     return (
         <div>
@@ -14,14 +15,13 @@ export const Services = () => {
 
             <div className="row justify-content-center align-items-center my-5 mx-auto" id='servicesImg'>
                 <div className="col-md-4 hvr-bounce-in my-3">
-                    <div className="card bg-dark text-white">
-                        <img
+                    <div className="card bg-dark text-white card-img servicesImg1">
+                        {/* <img
                             src="./img/kenifenS1.jpg"
                             className="card-img"
                             alt="Stony Beach"
-
-                        />
-                        <div className="card-img-overlay bg-transparent">
+                        /> */}
+                        <div className="card-img-overlay bg-transparent imgText">
                             <h5 className="card-title aquatico-regular">Custom Tailoring</h5>
                             <p className="card-text my-5 roboto-regular text-justify">
                                 Our suit fashion company specializes in crafting bespoke suits
@@ -29,19 +29,20 @@ export const Services = () => {
                                 a perfect fit and personalized style.
                             </p>
                             <p className="card-text">
-                                <i class="bi bi-bag-check-fill"></i>
+                                {/* <i class="bi bi-bag-check-fill"></i> */}
+                                <IoBagCheckOutline className='servicesIcon' />
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 hvr-bounce-in my-3">
-                    <div className="card bg-dark text-white">
-                        <img
+                    <div className="card bg-dark text-white card-img servicesImg2">
+                        {/* <img
                             src="./img/kenifenS2.jpg"
                             className="card-img"
                             alt="Stony Beach"
-                        />
-                        <div className="card-img-overlay bg-transparent">
+                        /> */}
+                        <div className="card-img-overlay bg-transparent imgText">
                             <h5 className="card-title aquatico-regular">
                                 Ready-to-Wear Collections
                             </h5>
@@ -51,19 +52,20 @@ export const Services = () => {
                                 seeking stylish options without the need for customization.
                             </p>
                             <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
+                                {/* <i className="bi bi-bag-check-fill"></i> */}
+                                <IoBagCheckOutline className='servicesIcon' />
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 hvr-bounce-in my-3">
-                    <div className="card bg-dark text-white">
-                        <img
+                    <div className="card bg-dark text-white card-img servicesImg3">
+                        {/* <img
                             src="./img/kenifenS3.jpg"
                             className="card-img"
                             alt="Stony Beach"
-                        />
-                        <div className="card-img-overlay bg-transparent">
+                        /> */}
+                        <div className="card-img-overlay bg-transparent imgText">
                             <h5 className="card-title aquatico-regular">
                                 Alterations and Repairs
                             </h5>
@@ -73,7 +75,8 @@ export const Services = () => {
                                 fixing minor damages, or refreshing your wardrobe.
                             </p>
                             <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
+                                {/* <i className="bi bi-bag-check-fill"></i> */}
+                                <IoBagCheckOutline className='servicesIcon' />
                             </p>
                         </div>
                     </div>

@@ -1,6 +1,80 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 .hanging-icons {
     border: 2px solid black;
 }
+
+#servicesImg {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.servicesImg1 {
+    background-image: url(./img/kenifenS1.jpg);
+    height: 29.8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.servicesImg2 {
+    background-image: url(./img/kenifenS2.jpg);
+    height: 29.8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.servicesImg3 {
+    background-image: url(./img/kenifenS3.jpg);
+    height: 29.8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+.servicesIcon {
+    font-size: 1.8rem;
+    padding-left: 0;
+}
+
+.bg-dark {
+    --mdb-bg-opacity: 1;
+    background-color: rgba(var(--mdb-dark-rgb), var(--mdb-bg-opacity)) !important;
+}
+
+.imgText {
+    width: 100% !important;
+    justify-items: left;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgText h5 {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.imgText p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.aquatico-regular {
+    font-family: Aquatico Regular !important;
+}
+
+.card-title {
+    margin-bottom: var(--mdb-card-title-spacer-y);
+}
+
 
 #services {
     /* border: 2px solid black; */
@@ -8,7 +82,9 @@
     margin: 0 auto;
     margin-bottom: 25px;
     font-size: calc(1.325rem + .9vw);
-
+    border-bottom: 1px solid rgb(212, 205, 205);
+    margin-bottom: 5rem;
+    margin-top: 7rem;
 }
 
 #services p {
@@ -22,16 +98,10 @@
 
 }
 
-#servicesImg {
-    /* border: 2px solid black; */
-    width: 90%;
-    margin: 0 auto;
-}
-
 .getReadyText {
     font-size: 50px;
     font-size: calc(1.325rem + .9vw);
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(212, 205, 205);
     margin-bottom: 25px;
 }
 
@@ -62,4 +132,39 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.hvr-sink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    /* transform: perspective(1px) translateZ(0); */
+    adow: 0 0 1px #0000;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.rounded-5 {
+    border-radius: .5rem !important;
+}
+
+.bg-white {
+    --mdb-bg-opacity: 1;
+    background-color: rgba(var(--mdb-white-rgb), var(--mdb-bg-opacity)) !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+.align-items-start {
+    align-items: flex-start !important;
+}
+
+.d-flex {
+    display: flex !important;
 }
