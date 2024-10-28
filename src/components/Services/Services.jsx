@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Services.css";
-import { IoBagCheckOutline } from "react-icons/io5";
+// import { IoBagCheckOutline } from "react-icons/io5";
+import { IoBagCheck } from "react-icons/io5";
 export const Services = () => {
     return (
         <div>
@@ -30,7 +31,8 @@ export const Services = () => {
                             </p>
                             <p className="card-text">
                                 {/* <i class="bi bi-bag-check-fill"></i> */}
-                                <IoBagCheckOutline className='servicesIcon' />
+                                {/* <IoBagCheckOutline className='servicesIcon' /> */}
+                                <IoBagCheck className='servicesIcon' />
                             </p>
                         </div>
                     </div>
@@ -53,7 +55,8 @@ export const Services = () => {
                             </p>
                             <p className="card-text">
                                 {/* <i className="bi bi-bag-check-fill"></i> */}
-                                <IoBagCheckOutline className='servicesIcon' />
+                                {/* <IoBagCheckOutline className='servicesIcon' /> */}
+                                <IoBagCheck className='servicesIcon' />
                             </p>
                         </div>
                     </div>
@@ -76,7 +79,7 @@ export const Services = () => {
                             </p>
                             <p className="card-text">
                                 {/* <i className="bi bi-bag-check-fill"></i> */}
-                                <IoBagCheckOutline className='servicesIcon' />
+                                <IoBagCheck className='servicesIcon' />
                             </p>
                         </div>
                     </div>
