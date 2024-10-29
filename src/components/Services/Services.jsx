@@ -15,7 +15,7 @@ export const Services = () => {
             </div>
 
             <div className="row justify-content-center align-items-center my-5 mx-auto" id='servicesImg'>
-                <div className="col-md-4 hvr-bounce-in my-3">
+                <div className="col-md-4 hvr-bounce-in my-3 imgSection">
                     <div className="card bg-dark text-white card-img servicesImg1">
                         {/* <img
                             src="./img/kenifenS1.jpg"
@@ -37,7 +37,7 @@ export const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 hvr-bounce-in my-3">
+                <div className="col-md-4 hvr-bounce-in my-3 imgSection">
                     <div className="card bg-dark text-white card-img servicesImg2">
                         {/* <img
                             src="./img/kenifenS2.jpg"
@@ -61,7 +61,7 @@ export const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 hvr-bounce-in my-3">
+                <div className="col-md-4 hvr-bounce-in my-3 imgSection">
                     <div className="card bg-dark text-white card-img servicesImg3">
                         {/* <img
                             src="./img/kenifenS3.jpg"
