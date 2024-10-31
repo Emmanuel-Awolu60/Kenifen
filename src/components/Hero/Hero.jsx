@@ -1,16 +1,18 @@
 import React from "react";
 import "./Hero.css";
+// import "../scrollreveal.js"
+{/* <script src="https://unpkg.com/scrollreveal"></script> */ }
 const Hero = () => {
   return (
     <div className="div__top">
       <div className="div__right">
         <div className="div__rightText">
           <h2>
-            <span className="welcome__text typing-effect ">WELCOME TO</span>
+            <span className="text-primary">WELCOME TO</span>
             <br />
-            <span className="text-primary bbb">BECCA</span>
-            <span className="font-semibold text-danger">KENI</span>
-            <span className="font-semibold text-primary">FEN</span>
+            {/* <span className="text-primary bbb headline">BECCA</span> */}
+            <span className="font-semibold text-primary">KENI</span>
+            <span className="font-semibold text-danger">FEN</span>
           </h2>
         </div>
 

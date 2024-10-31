@@ -13,8 +13,8 @@ const About = () => {
         <main className="py-5">
             {/* <!-- about us --> */}
             <div className="mt-5 text-center" id="about">
-                <h2 className="mdd mb-3 aquatico-regular">About Us</h2>
-                <p className="roboto-regular text-center lead">
+                <h2 className="mdd mb-3 aquatico-regular text-black">About Us</h2>
+                <p className="roboto-regular text-center lead text-black">
                     Discover the epitome of luxury and comfort at our exquisite suites –
                     your perfect home away from home.
                 </p>

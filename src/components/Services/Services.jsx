@@ -140,7 +140,7 @@ export const Services = () => {
             </div>
 
             {/* <!-- portfolio --> */}
-            <div className="my-generic text-center" id="portfolio">
+            {/* <div className="my-generic text-center" id="portfolio">
                 <h2 className="mb-3 mt-5 aquatico-regular">Portfolio</h2>
                 <p className="roboto-regular text-center lead">
                     Explore our portfolio of exquisite suits, showcasing precision
@@ -284,7 +284,7 @@ export const Services = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )
