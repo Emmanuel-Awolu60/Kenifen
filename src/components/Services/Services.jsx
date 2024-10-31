@@ -153,7 +153,7 @@ export const Services = () => {
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
-                            src="/assets/2-3966b115.jpg"
+                            src="./img/Portfolio1.jpg"
                             className="card-img"
                             alt="Stony Beach"
                         />
@@ -168,7 +168,7 @@ export const Services = () => {
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
-                            src="/assets/5-79352e92.jpg"
+                            src="./img/Portfolio2.jpg"
                             className="card-img"
                             alt="Stony Beach"
                         />
@@ -183,7 +183,7 @@ export const Services = () => {
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
-                            src="/assets/6-06affbeb.jpg"
+                            src="./img/Portfolio3.jpg"
                             className="card-img"
                             alt="Stony Beach"
                         />
@@ -198,7 +198,7 @@ export const Services = () => {
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
-                            src="/assets/3-d3187101.jpg"
+                            src="./img/Portfolio4.jpg"
                             className="card-img"
                             alt="Stony Beach"
                         />
@@ -213,7 +213,7 @@ export const Services = () => {
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
-                            src="/assets/11-a0b41cbc.jpg"
+                            src="./img/Portfolio5.jpg"
                             className="card-img"
                             alt="Stony Beach"
                         />
@@ -228,7 +228,7 @@ export const Services = () => {
                 <div className="col-md-4 hvr-bounce-in my-3">
                     <div className="card bg-dark text-white">
                         <img
-                            src="/assets/12-dc243fbe.jpg"
+                            src="./img/Portfolio6.jpg"
                             className="card-img"
                             alt="Stony Beach"
                         />

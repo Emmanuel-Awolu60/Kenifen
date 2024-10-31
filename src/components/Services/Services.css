@@ -122,8 +122,9 @@ div {
 }
 
 .nowNow {
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
+    /* border: 2px solid tomato; */
 }
 
 .callToAction {
@@ -193,4 +194,24 @@ div {
 
 .d-flex {
     display: flex !important;
+}
+
+@media (max-width:967px) {
+    #servicesImg {
+        display: block !important;
+    }
+
+
+    .imgSection:hover {
+        width: 100%;
+    }
+
+    .hanging-icons {
+        border: 2px solid black;
+        display: block !important;
+    }
+
+    .nowNow {
+        display: block;
+    }
 }

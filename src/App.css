@@ -12,7 +12,8 @@ body {
     line-height: var(--mdb-body-line-height);
     color: var(--mdb-body-color);
     text-align: var(--mdb-body-text-align);
-    background-color: var(--mdb-body-bg);
+    /* background-color: var(--mdb-body-bg); */
+    background-color: #FBFBFB;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

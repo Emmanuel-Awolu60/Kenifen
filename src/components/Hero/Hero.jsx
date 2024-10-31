@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="div__right">
         <div className="div__rightText">
           <h2>
-            <span className="welcome__text">WELCOME TO</span>
+            <span className="welcome__text typing-effect ">WELCOME TO</span>
             <br />
             <span className="text-primary bbb">BECCA</span>
             <span className="font-semibold text-danger">KENI</span>
