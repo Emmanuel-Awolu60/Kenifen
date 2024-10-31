@@ -8,11 +8,11 @@ const Hero = () => {
       <div className="div__right">
         <div className="div__rightText">
           <h2>
-            <span className="text-primary">WELCOME TO</span>
+            <span className="font-semibold">WELCOME TO</span>
             <br />
             {/* <span className="text-primary bbb headline">BECCA</span> */}
-            <span className="font-semibold text-primary">KENI</span>
-            <span className="font-semibold text-danger">FEN</span>
+            <span className="font-semibold">KENI</span>
+            <span className="font-semibold">FEN</span>
           </h2>
         </div>
 

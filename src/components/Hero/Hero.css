@@ -28,9 +28,11 @@ img {
 }
 
 .div__rightText h2 {
-    color: #54b4d3;
+    color: #608BC1;
     font-size: 3rem;
+    font-family: Georgia, serif !important;
     /* margin-bottom: 1rem; */
+    /* border: 2px solid black; */
 }
 
 .welcome__text {
@@ -40,7 +42,7 @@ img {
     /* font-size: ; */
 }
 
-.text-primary {
+/* .text-primary {
     color: #3b71ca;
     font-family: Georgia, serif;
 }
@@ -48,11 +50,13 @@ img {
 .text-danger {
     color: #dc4c64;
     font-family: Georgia, serif;
-}
+} */
 
 .div__left {
     width: 40%;
 }
+
+/* .welText {} */
 
 .textp {
     font-size: 19px;
@@ -114,7 +118,7 @@ img {
 }
 
 .btn__start {
-    background-color: #3b71ca;
+    background-color: #608BC1;
     border-radius: 4px;
     border-style: none;
     margin-right: 10px;
@@ -149,7 +153,7 @@ img {
 .btn__buy {
     background-color: #fff;
     border-radius: 4px;
-    border: 1.5px solid #3b71ca;
+    border: 1.5px dashed #608BC1;
     box-sizing: border-box;
     margin-left: 5px !important;
     color: #3b71ca;
@@ -176,7 +180,7 @@ img {
 }
 
 .btn__buy:hover {
-    background-color: #54b4d3;
+    background-color: #608BC1;
     color: #fff;
     transition-duration: 1s;
 }

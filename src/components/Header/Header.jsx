@@ -17,8 +17,8 @@ const Header = () => {
         <div className="hearding__nav">
           <h1>
             {/* <span className="text-primary">BECCA</span> */}
-            <span className="text-primary">KENI</span>
-            <span className="text-danger">FEN</span>
+            <span className="font-semibold">KENI</span>
+            <span className="font-semibold fenText">FEN</span>
           </h1>
         </div>
         <OutsideClickHandler
