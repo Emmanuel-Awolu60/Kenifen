@@ -144,21 +144,42 @@ div {
     border: var(--mdb-card-border-width) solid var(--mdb-card-border-color);
     border-radius: var(--mdb-card-border-radius);
     box-shadow: var(--mdb-card-box-shadow);
+    /* border: 3px solid tomato; */
+
+}
+
+
+.callToAction:hover {
+    transform: translateY(-10px);
+    /* Move the element 10px upward */
+    transition: transform 0.3s ease-out;
+    /* Smooth transition effect */
+
+}
+
+.imgSection {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imgSection:hover {
+    transform: scale(1.05);
 }
 
 .card-img-overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    /* semi-transparent dark overlay */
     padding: 1rem;
-}
-
-.card-img-overlay {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .hvr-sink {

@@ -14,7 +14,7 @@ body {
     text-align: var(--mdb-body-text-align);
     /* background-color: var(--mdb-body-bg); */
     /* background-color: #FBFBFB; */
-    background-color: #fff;
+    background-color: #f5f5f5;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
