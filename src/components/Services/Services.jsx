@@ -92,8 +92,243 @@ export const Services = () => {
                     </div>
                 </div>
             </div>
+            <div className=''></div>
 
+            {/* <!-- portfolio --> */}
+            <div className="my-generic text-center container" id="portfolio">
+                <h2 className="mb-3 mt-5 aquatico-regular">Portfolio</h2>
+                <p className="roboto-regular text-center lead">
+                    Explore our portfolio of exquisite suits, showcasing precision
+                    tailoring and impeccable design, embodying the sophistication and
+                    versatility we offer.
+                </p>
+            </div>
 
+            <div className="container row justify-content-center align-items-center my-5 mx-auto portfolioImg">
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            src="./img/Portfolio1.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            src="./img/Portfolio2.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            // src="/assets/6-06affbeb.jpg"
+                            src="./img/Portfolio2.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            src="./img/Portfolio3.jpg"
+                            // src="/assets/3-d3187101.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            src="./img/Portfolio4.jpg"
+                            // src="/assets/11-a0b41cbc.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 hvr-bounce-in my-3">
+                    <div class="card bg-dark text-white">
+                        <img
+                            src="./img/Portfolio5.jpg"
+
+                            // src="/assets/12-dc243fbe.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            src="./img/Portfolio1.jpg"
+                            // src="/assets/4-616bbbbd.jpg"
+                            class="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            // src="/assets/9-d48b2ace.jpg"
+                            src="./img/Portfolio3.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="card bg-dark text-white">
+                        <img
+                            // src="/assets/13-26ef6062.jpg"
+                            src="./img/Portfolio1.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        />
+                        <div className="card-img-overlay bg-transparent2">
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* <!-- testimonials --> */}
+            <div className="my-generic text-center" id="testimonials">
+                <h2 className="mb-3 mt-5 aquatico-regular">Testimonials</h2>
+                <p className="roboto-regular text-center lead">
+                    See what our customers have to say about their experiences with our
+                    suits. Explore these testimonials to witness the confidence and
+                    elegance we deliver.
+                </p>
+
+                <div className="row justify-center align-items-center">
+                    <div className="col-md-4">
+                        <div
+                            className="card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
+                        >
+                            <div className="card-body">
+                                <img
+                                    src="/assets/user-1-d0c455ac.jpeg"
+                                    className="img-testimonial"
+                                    alt="testimonial"
+                                />
+
+                                <h5 className="card-title my-3 aquatico-regular text-left">
+                                    Pever Luper Collins
+                                </h5>
+                                <p className="card-text roboto-regular text-justify">
+                                    <i className="bi bi-quote text-info"></i>
+                                    Absolutely impeccable tailoring! Their suits are a perfect
+                                    fit, and I always feel like a million bucks wearing them.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div
+                            className="card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
+                        >
+                            <div className="card-body">
+                                <img
+                                    src="/assets/user-4-4db49d7c.jpg"
+                                    className="img-testimonial"
+                                    alt="testimonial"
+                                />
+
+                                <h5 className="card-title my-3 aquatico-regular text-left">
+                                    Soo Vica
+                                </h5>
+                                <p className="card-text roboto-regular text-justify">
+                                    <i className="bi bi-quote text-info"></i>
+                                    I've never received so many compliments on my style until I
+                                    started wearing suits from this company.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div
+                            className="card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
+                        >
+                            <div className="card-body">
+                                <img
+                                    src="/assets/user-3-acacf06d.jpg"
+                                    className="img-testimonial"
+                                    alt="testimonial"
+                                />
+
+                                <h5 className="card-title my-3 aquatico-regular text-left">
+                                    Dogo Emmanuella
+                                </h5>
+                                <p className="card-text roboto-regular text-justify">
+                                    <i className="bi bi-quote text-info"></i>
+                                    Absolutely impeccable tailoring! Their suits are a perfect
+                                    fit, and I always feel like a million bucks wearing them.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
