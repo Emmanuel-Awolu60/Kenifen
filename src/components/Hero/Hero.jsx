@@ -34,7 +34,8 @@ const Hero = () => {
         <div className="left__img">
           <ul className="glide__slides">
             <li className="glide__slide">
-              <img src="./img/hero.jpg" alt="" className="hero__img" />
+              {/* <img src="./img/hero.jpg" alt="" className="hero__img" /> */}
+              <img src="./img/ooog.jpg" alt="" className="hero__img" />
             </li>
           </ul>
         </div>

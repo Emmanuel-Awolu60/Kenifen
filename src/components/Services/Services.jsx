@@ -5,7 +5,7 @@ import { IoBagCheck } from "react-icons/io5";
 const ServiceCard = ({ title, description, imageClass }) => {
     return (
         <div className="col-md-4 hvr-bounce-in my-3 imgSection">
-            <div className={`card text-white card-img ${imageClass}`}>
+            <div className={`card bg-dark text-white card-img ${imageClass}`}>
                 <div className="card-img-overlay bg-transparent imgText">
                     <h5 className="card-title aquatico-regular">{title}</h5>
                     <p className="card-text my-5 roboto-regular text-justify">
@@ -251,14 +251,14 @@ export const Services = () => {
                     elegance we deliver.
                 </p>
 
-                <div className="row justify-center align-items-center">
+                <div className="testimonialsText row justify-center align-items-center">
                     <div className="col-md-4">
                         <div
                             className=" img-testimonialText card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
                         >
                             <div className="card-body">
                                 <img
-                                    src="/assets/user-1-d0c455ac.jpeg"
+                                    src="./img/og.jpg"
                                     className="img-testimonial"
                                     alt="testimonial"
                                 />
@@ -304,7 +304,7 @@ export const Services = () => {
                         >
                             <div className="card-body">
                                 <img
-                                    src="/assets/user-3-acacf06d.jpg"
+                                    src="./img/soovica.jpg"
                                     className="img-testimonial"
                                     alt="testimonial"
                                 />
