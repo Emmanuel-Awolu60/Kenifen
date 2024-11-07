@@ -127,13 +127,13 @@ const Form = () => {
                                     required
                                 ></textarea>
                             </div>
-                            <div className="my-3">
+                            {/* <div className="my-3">
                                 <div className="loading">Loading</div>
                                 <div className="error-message"></div>
                                 <div className="sent-message">
                                     Your message has been sent. Thank you!
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="text-center">
                                 <button
                                     type="submit"
@@ -150,10 +150,10 @@ const Form = () => {
             {/* Footer Section */}
             <footer className="footer bg-dark text-white py-4">
                 <div className="container text-center">
-                    <p className="mb-1 roboto-medium">&copy; 2024 Deji & Kola. All rights reserved.</p>
+                    <p className="mb-1 roboto-medium">&copy; 2024 Kenifen. All rights reserved.</p>
                     <p className="small">
                         Follow us on
-                        <a href="#" className="text-info mx-2">Facebook</a> |
+                        <a href="https://web.facebook.com/babatunde.steveson" className="text-info mx-2">Facebook</a> |
                         <a href="#" className="text-info mx-2">Twitter</a> |
                         <a href="#" className="text-info mx-2">Instagram</a>
                     </p>

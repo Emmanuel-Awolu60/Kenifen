@@ -219,11 +219,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -234,11 +229,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -249,11 +239,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -264,11 +249,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -279,11 +259,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -294,11 +269,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -309,11 +279,6 @@ export const Services = () => {
                             class="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -324,11 +289,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -339,11 +299,6 @@ export const Services = () => {
                             className="card-img"
                             alt="Stony Beach"
                         />
-                        <div className="card-img-overlay bg-transparent2">
-                            <p className="card-text">
-                                <i className="bi bi-bag-check-fill"></i>
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -416,7 +371,7 @@ export const Services = () => {
                                 />
 
                                 <h5 className="card-title my-3 aquatico-regular text-left">
-                                    Dogo Emmanuella
+                                    Dogo Emmanuel
                                 </h5>
                                 <p className="card-text roboto-regular text-justify">
                                     <i className="bi bi-quote text-info"></i>

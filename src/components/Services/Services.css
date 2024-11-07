@@ -75,8 +75,9 @@ div {
 }
 
 .imgText p {
-    font-size: 1.2rem;
-    /* line-height: 2rem; */
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    color: rgb(218, 213, 213);
 }
 
 .aquatico-regular {
@@ -99,10 +100,7 @@ div {
     margin-top: 7rem;
 }
 
-#services p {
-    font-size: 1.5rem;
 
-}
 
 #services h2 {
     font-size: 2.5rem !important;

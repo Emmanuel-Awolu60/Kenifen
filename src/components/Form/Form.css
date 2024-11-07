@@ -42,7 +42,6 @@
     box-shadow: 0 0 10px #d6d7d84d;
     padding: 20px 0 30px;
     /* width: 20%; */
-    border: 2px solid black;
 }
 
 .contact-card {
@@ -84,8 +83,7 @@ form {
 
 .form-control {
     border: 1px solid rgb(201, 199, 199);
-    /* padding:; */
-    width: 90%;
+    width: 100%;
     padding: 10px 0 0 10px;
     /* height: 3rem; */
 }
