@@ -46,7 +46,7 @@ h5 {
 
 .icon-square {
     color: #fff;
-    justify-self: center;
+    justify-self: center !important;
     background-color: #54b4d3;
     width: 3rem;
     height: 3rem;

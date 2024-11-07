@@ -1,7 +1,7 @@
-div {
-    display: block;
+/* div {
+    display: grid;
     unicode-bidi: isolate;
-}
+} */
 
 .icon-square {
     color: #fff;
