@@ -30,29 +30,18 @@ div {
 
 }
 
-.imgCard1 {
-    background-image: url(./img/kenifenS1.jpg) !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: bottom; */
-    height: 29.8rem;
-}
-
-.imgCard2 {
-    background-image: url(./img/kenifenS2.jpg) !important;
-    height: 29.8rem;
+.imgCard {
+    /* background-image: url(./img/kenifenS3.jpg) !important; */
+    height: 32rem;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    position: relative;
+    border: 2px solid tomato;
 }
 
-.imgCard3 {
-    background-image: url(./img/kenifenS3.jpg) !important;
-    height: 29.8rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+.card-img {
     border-radius: 5px;
-
 }
 
 .servicesIcon {
@@ -60,6 +49,8 @@ div {
     padding-left: 0;
     color: #fff;
 }
+
+
 
 .bg-dark {
     --mdb-bg-opacity: 1;
@@ -71,6 +62,9 @@ div {
     justify-items: left !important;
     text-align: left !important;
     left: 0;
+    position: absolute;
+    top: 0;
+    text-align: left !important;
 }
 
 .imgText h5 {
