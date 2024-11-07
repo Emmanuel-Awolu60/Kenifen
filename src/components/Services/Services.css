@@ -18,10 +18,11 @@ div {
     border: 2px solid black;
 }
 
-#servicesImg {
+#services {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 10rem;
+    /* border: 2px solid black; */
 }
 
 .imgSection:hover {
@@ -32,7 +33,7 @@ div {
 
 .imgCard {
     /* background-image: url(./img/kenifenS3.jpg) !important; */
-    height: 32rem;
+    /* height: 50rem; */
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -75,7 +76,7 @@ div {
 
 .imgText p {
     font-size: 1.2rem;
-    line-height: 2rem;
+    /* line-height: 2rem; */
 }
 
 .aquatico-regular {
@@ -310,10 +311,16 @@ div {
 }
 
 @media (max-width:967px) {
-    #servicesImg {
+    .imgSS {
         display: block !important;
     }
 
+    .card-img {
+        height: 30rem;
+        text-align: left !important;
+        justify-items: left;
+        text-align: left !important;
+    }
 
     .imgSection:hover {
         width: 100%;

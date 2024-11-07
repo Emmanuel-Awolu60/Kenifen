@@ -28,77 +28,79 @@ export const Services = () => {
 
 
             {/* <!-- services --> */}
-            <div className="my-generic text-center" id="services">
-                <h2 className="mb-3 mt-5 aquatico-regular">Services</h2>
-                <p className="roboto-regular text-center lead">
-                    Elevate your style with our suit fashion company, offering
-                    impeccable craftsmanship, personalized fittings, and timeless
-                    designs for a wardrobe of sophistication and confidence.
-                </p>
-            </div>
+            <div id="services">
+                <div className=" my-generic text-center" >
+                    <h2 className="mb-3 mt-5 aquatico-regular">Services</h2>
+                    <p className="roboto-regular text-center lead">
+                        Elevate your style with our suit fashion company, offering
+                        impeccable craftsmanship, personalized fittings, and timeless
+                        designs for a wardrobe of sophistication and confidence.
+                    </p>
+                </div>
 
-            <div className="row justify-content-center align-items-center my-5 mx-auto">
-                <div className=" servicesImg1 col-md-4 hvr-bounce-in my-3">
-                    <div className="imgCard card bg-dark text-white">
-                        <img
-                            src="./img/kenifenS1.jpg"
-                            className="card-img"
-                            alt="Stony Beach"
-                        />
-                        <div className=" imgText card-img-overlay bg-transparent">
-                            <h5 className="card-title aquatico-regular">Custom Tailoring</h5>
-                            <p className="card-text my-5 roboto-regular text-justify">
-                                Our suit fashion company specializes in crafting bespoke suits
-                                tailored to your unique measurements and preferences, ensuring
-                                a perfect fit and personalized style.
-                            </p>
-                            <p className="card-text">
-                                <IoBagCheck className='servicesIcon' />
-                            </p>
+                <div className=" imgSS row justify-content-center align-items-center my-5 mx-auto">
+                    <div className=" servicesImg1 col-md-4 hvr-bounce-in my-3">
+                        <div className="imgCard card bg-dark text-white">
+                            <img
+                                src="./img/kenifenS1.jpg"
+                                className="card-img"
+                                alt="Stony Beach"
+                            />
+                            <div className=" imgText card-img-overlay bg-transparent">
+                                <h5 className="card-title aquatico-regular">Custom Tailoring</h5>
+                                <p className="card-text my-5 roboto-regular text-justify">
+                                    Our suit fashion company specializes in crafting bespoke suits
+                                    tailored to your unique measurements and preferences, ensuring
+                                    a perfect fit and personalized style.
+                                </p>
+                                <p className="card-text">
+                                    <IoBagCheck className='servicesIcon' />
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-4 hvr-bounce-in my-3">
-                    <div className="imgCard card bg-dark text-white">
-                        <img
-                            src="./img/kenifenS2.jpg"
-                            className="card-img"
-                            alt="Stony Beach"
-                        />
-                        <div className=" imgText card-img-overlay bg-transparent">
-                            <h5 className="card-title aquatico-regular">
-                                Ready-to-Wear Collections
-                            </h5>
-                            <p className="card-text my-5 roboto-regular text-justify">
-                                Explore our curated range of ready-to-wear suits featuring a
-                                variety of classic and contemporary designs, ideal for those
-                                seeking stylish options without the need for customization.
-                            </p>
-                            <p className="card-text">
-                                <IoBagCheck className='servicesIcon' />
-                            </p>
+                    <div className="col-md-4 hvr-bounce-in my-3">
+                        <div className="imgCard card bg-dark text-white">
+                            <img
+                                src="./img/kenifenS2.jpg"
+                                className="card-img"
+                                alt="Stony Beach"
+                            />
+                            <div className=" imgText card-img-overlay bg-transparent">
+                                <h5 className="card-title aquatico-regular">
+                                    Ready-to-Wear Collections
+                                </h5>
+                                <p className="card-text my-5 roboto-regular text-justify">
+                                    Explore our curated range of ready-to-wear suits featuring a
+                                    variety of classic and contemporary designs, ideal for those
+                                    seeking stylish options without the need for customization.
+                                </p>
+                                <p className="card-text">
+                                    <IoBagCheck className='servicesIcon' />
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-4 hvr-bounce-in my-3">
-                    <div className="imgCard card bg-dark text-white">
-                        <img
-                            src="./img/kenifenS3.jpg"
-                            className="card-img"
-                            alt="Stony Beach"
-                        />
-                        <div className=" imgText card-img-overlay bg-transparent">
-                            <h5 className="card-title aquatico-regular">
-                                Alterations and Repairs
-                            </h5>
-                            <p className="card-text my-5 roboto-regular text-justify">
-                                We offer expert alteration and repair services to ensure your
-                                suits always look their best, whether it's adjusting the fit,
-                                fixing minor damages, or refreshing your wardrobe.
-                            </p>
-                            <p className="card-text">
-                                <IoBagCheck className='servicesIcon' />
-                            </p>
+                    <div className="col-md-4 hvr-bounce-in my-3">
+                        <div className="imgCard card bg-dark text-white">
+                            <img
+                                src="./img/kenifenS3.jpg"
+                                className="card-img"
+                                alt="Stony Beach"
+                            />
+                            <div className=" imgText card-img-overlay bg-transparent">
+                                <h5 className="card-title aquatico-regular">
+                                    Alterations and Repairs
+                                </h5>
+                                <p className="card-text my-5 roboto-regular text-justify">
+                                    We offer expert alteration and repair services to ensure your
+                                    suits always look their best, whether it's adjusting the fit,
+                                    fixing minor damages, or refreshing your wardrobe.
+                                </p>
+                                <p className="card-text">
+                                    <IoBagCheck className='servicesIcon' />
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
