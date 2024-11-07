@@ -30,16 +30,15 @@ div {
 
 }
 
-
-.servicesImg1 {
+.imgCard1 {
     background-image: url(./img/kenifenS1.jpg) !important;
-    height: 29.8rem;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    /* background-position: bottom; */
+    height: 29.8rem;
 }
 
-.servicesImg2 {
+.imgCard2 {
     background-image: url(./img/kenifenS2.jpg) !important;
     height: 29.8rem;
     background-size: cover;
@@ -47,7 +46,7 @@ div {
     border-radius: 5px;
 }
 
-.servicesImg3 {
+.imgCard3 {
     background-image: url(./img/kenifenS3.jpg) !important;
     height: 29.8rem;
     background-size: cover;

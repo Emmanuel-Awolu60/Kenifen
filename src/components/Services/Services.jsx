@@ -4,28 +4,106 @@ import { IoBagCheck } from "react-icons/io5";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoBagOutline } from "react-icons/io5";
 
-const ServiceCard = ({ title, description, imageClass }) => {
-    return (
-        <div className="col-md-4 hvr-bounce-in my-3 imgSection">
-            <div className={`card bg-dark text-white card-img servicesImg1 ${imageClass}`}>
-                <div className="card-img-overlay bg-transparent imgText">
-                    <h5 className="card-title aquatico-regular">{title}</h5>
-                    <p className="card-text my-5 roboto-regular text-justify">
-                        {description}
-                    </p>
-                    <p className="card-text">
-                        <IoBagCheck className='servicesIcon' />
-                    </p>
-                </div>
-            </div>
-        </div>
-    );
-};
+// const ServiceCard = ({ title, description, imageClass }) => {
+//     return (
+//         <div className="col-md-4 hvr-bounce-in my-3 imgSection">
+//             <div className={`card bg-dark text-white card-img servicesImg1 ${imageClass}`}>
+//                 <div className="card-img-overlay bg-transparent imgText">
+//                     <h5 className="card-title aquatico-regular">{title}</h5>
+//                     <p className="card-text my-5 roboto-regular text-justify">
+//                         {description}
+//                     </p>
+//                     <p className="card-text">
+//                         <IoBagCheck className='servicesIcon' />
+//                     </p>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// };
 
 export const Services = () => {
     return (
         <div>
+
+
+            {/* <!-- services --> */}
             <div className="my-generic text-center" id="services">
+                <h2 className="mb-3 mt-5 aquatico-regular">Services</h2>
+                <p className="roboto-regular text-center lead">
+                    Elevate your style with our suit fashion company, offering
+                    impeccable craftsmanship, personalized fittings, and timeless
+                    designs for a wardrobe of sophistication and confidence.
+                </p>
+            </div>
+
+            <div className="row justify-content-center align-items-center my-5 mx-auto">
+                <div className=" servicesImg1 col-md-4 hvr-bounce-in my-3">
+                    <div className="imgCard1 card bg-dark text-white">
+                        {/* <img
+                            src="./img/kenifenS1.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        /> */}
+                        <div className=" imgText card-img-overlay bg-transparent">
+                            <h5 className="card-title aquatico-regular">Custom Tailoring</h5>
+                            <p className="card-text my-5 roboto-regular text-justify">
+                                Our suit fashion company specializes in crafting bespoke suits
+                                tailored to your unique measurements and preferences, ensuring
+                                a perfect fit and personalized style.
+                            </p>
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className="imgCard2 card bg-dark text-white">
+                        {/* <img
+                            src="./img/kenifenS2.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        /> */}
+                        <div className=" imgText card-img-overlay bg-transparent">
+                            <h5 className="card-title aquatico-regular">
+                                Ready-to-Wear Collections
+                            </h5>
+                            <p className="card-text my-5 roboto-regular text-justify">
+                                Explore our curated range of ready-to-wear suits featuring a
+                                variety of classic and contemporary designs, ideal for those
+                                seeking stylish options without the need for customization.
+                            </p>
+                            <p className="card-text">
+                                <i class="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 hvr-bounce-in my-3">
+                    <div className=" imgCard3 card bg-dark text-white">
+                        {/* <img
+                            src="./img/kenifenS3.jpg"
+                            className="card-img"
+                            alt="Stony Beach"
+                        /> */}
+                        <div className=" imgText card-img-overlay bg-transparent">
+                            <h5 className="card-title aquatico-regular">
+                                Alterations and Repairs
+                            </h5>
+                            <p className="imgText card-text my-5 roboto-regular text-justify">
+                                We offer expert alteration and repair services to ensure your
+                                suits always look their best, whether it's adjusting the fit,
+                                fixing minor damages, or refreshing your wardrobe.
+                            </p>
+                            <p className="card-text">
+                                <i className="bi bi-bag-check-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="my-generic text-center" id="services">
                 <h2 className="mb-3 mt-5 aquatico-regular text-black">Services</h2>
                 <p className="roboto-regular text-center lead">
                     Elevate your style with our suit fashion company, offering impeccable craftsmanship,
@@ -56,8 +134,8 @@ export const Services = () => {
                        fixing minor damages, or refreshing your wardrobe."
                     imageClass="servicesImg3"
                 />
-            </div>
-
+            </div> */}
+            {/* 
             <div className="container px-4 py-5 my-generic" id="hanging-icons">
                 <h2 className="pb-2 border-bottom text-center aquatico-regular getStartedText getReadyText text-black">
                     Are you ready to get started?
@@ -65,8 +143,8 @@ export const Services = () => {
                 <div className="row g-4 py-5 row-cols-1 row-cols-lg-2 nowNow">
                     <div className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 hvr-sink callToAction">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            {/* <i className="bi bi-bag-check-fill"></i> */}
-                            {/* <IoBagOutline className='icon-square' /> */}
+                            <i className="bi bi-bag-check-fill"></i>
+                            <IoBagOutline className='icon-square' />
                         </div>
                         <div>
                             <h2 className="roboto-bold">Unlock Your Sartorial Elegance</h2>
@@ -81,8 +159,8 @@ export const Services = () => {
                     </div>
                     <div className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 hvr-sink callToAction">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            {/* <i className="bi bi-house-heart"></i> */}
-                            {/* <IoHomeOutline className='icon-square' /> */}
+                            <i className="bi bi-house-heart"></i>
+                            <IoHomeOutline className='icon-square' />
                         </div>
                         <div>
                             <h2 className="roboto-bold">Tailored to Perfection</h2>
@@ -97,7 +175,7 @@ export const Services = () => {
                     </div>
                 </div>
             </div>
-            <div className=''></div>
+            <div className=''></div> */}
 
             {/* <!-- portfolio --> */}
             <div className="my-generic text-center container" id="portfolio">
