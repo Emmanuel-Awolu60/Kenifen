@@ -3,6 +3,17 @@ div {
     unicode-bidi: isolate;
 }
 
+.icon-square {
+    color: #fff;
+    justify-self: center;
+    background-color: none !important;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: .75rem;
+    margin-top: 1rem;
+}
+
 .hanging-icons {
     border: 2px solid black;
 }
@@ -19,8 +30,9 @@ div {
 
 }
 
+
 .servicesImg1 {
-    background-image: url(./img/kenifenS1.jpg);
+    background-image: url(./img/kenifenS1.jpg) !important;
     height: 29.8rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +40,7 @@ div {
 }
 
 .servicesImg2 {
-    background-image: url(./img/kenifenS2.jpg);
+    background-image: url(./img/kenifenS2.jpg) !important;
     height: 29.8rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,7 +48,7 @@ div {
 }
 
 .servicesImg3 {
-    background-image: url(./img/kenifenS3.jpg);
+    background-image: url(./img/kenifenS3.jpg) !important;
     height: 29.8rem;
     background-size: cover;
     background-repeat: no-repeat;

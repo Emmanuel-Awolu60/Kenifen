@@ -1,11 +1,13 @@
 import React from 'react';
 import "./Services.css";
 import { IoBagCheck } from "react-icons/io5";
+import { IoHomeOutline } from "react-icons/io5";
+import { IoBagOutline } from "react-icons/io5";
 
 const ServiceCard = ({ title, description, imageClass }) => {
     return (
         <div className="col-md-4 hvr-bounce-in my-3 imgSection">
-            <div className={`card bg-dark text-white card-img ${imageClass}`}>
+            <div className={`card bg-dark text-white card-img servicesImg1 ${imageClass}`}>
                 <div className="card-img-overlay bg-transparent imgText">
                     <h5 className="card-title aquatico-regular">{title}</h5>
                     <p className="card-text my-5 roboto-regular text-justify">
@@ -63,7 +65,8 @@ export const Services = () => {
                 <div className="row g-4 py-5 row-cols-1 row-cols-lg-2 nowNow">
                     <div className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 hvr-sink callToAction">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-bag-check-fill"></i>
+                            {/* <i className="bi bi-bag-check-fill"></i> */}
+                            {/* <IoBagOutline className='icon-square' /> */}
                         </div>
                         <div>
                             <h2 className="roboto-bold">Unlock Your Sartorial Elegance</h2>
@@ -78,7 +81,8 @@ export const Services = () => {
                     </div>
                     <div className="col d-flex align-items-start bg-white rounded-5 shadow-3 pt-5 hvr-sink callToAction">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-house-heart"></i>
+                            {/* <i className="bi bi-house-heart"></i> */}
+                            {/* <IoHomeOutline className='icon-square' /> */}
                         </div>
                         <div>
                             <h2 className="roboto-bold">Tailored to Perfection</h2>
